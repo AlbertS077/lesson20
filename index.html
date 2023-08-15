@@ -1,28 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
-      .header {
+      header {
         height: 60px;
         background-color: orange;
+      }
+
+      header a {
+        color: black;
       }
 
       .blockquote {
         background-color: burlywood;
       }
 
-      .footer {
+      footer {
         color: aliceblue;
         height: 300px;
         background-color: blueviolet;
-        text-decoration: none;
       }
 
       .footerLinks a {
         text-decoration: none;
+        color: aliceblue;
       }
 
       .footerLinks li {
@@ -31,7 +35,7 @@
     </style>
   </head>
   <body>
-    <header class="header">
+    <header>
       <a href="#firstSection">Первая секция</a>
       <a href="#secondSection">Вторая секция</a>
     </header>
@@ -42,8 +46,8 @@
         <img
           src="https://mir-s3-cdn-cf.behance.net/projects/max_808/f50c53147472623.Y3JvcCwxMDYwLDgyOSwwLDExNjc.jpg"
           alt=""
-          height="300px"
-          width="400px"
+          height="300"
+          width="400"
         />
         <p>
           Далеко-далеко за, словесными горами в стране гласных и согласных живут
@@ -235,16 +239,18 @@
         </div>
       </section>
     </main>
-    <footer class="footer">
-      <h4>Ссылки</h4>
-      <ul class="footerLinks">
-        <li><a href="#">Ссылка</a></li>
-        <li><a href="#">Ссылка</a></li>
-        <li><a href="#">Ссылка</a></li>
-        <li><a href="#">Ссылка</a></li>
-        <li><a href="#">Ссылка</a></li>
-        <li><a href="#">Ссылка</a></li>
-      </ul>
+    <footer>
+      <div>
+        <h4>Ссылки</h4>
+        <ul class="footerLinks">
+          <li><a href="#">Ссылка</a></li>
+          <li><a href="#">Ссылка</a></li>
+          <li><a href="#">Ссылка</a></li>
+          <li><a href="#">Ссылка</a></li>
+          <li><a href="#">Ссылка</a></li>
+          <li><a href="#">Ссылка</a></li>
+        </ul>
+      </div>
     </footer>
   </body>
 </html>
